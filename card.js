@@ -143,11 +143,15 @@ $("#rs").on("click",function(){
     initialsuit();
     initialiseCard();
     $(".you").css({"position":"relative",
-    "background":"url(https://tse4.mm.bing.net/th?id=OIP.Bs9EpXBvazxnWrM4x2LtEwHaKi&pid=Api&P=0&w=114&h=162)","background-size":"190px",
-    "animation-name":"distribute",
-    "animation-duration":"0.3s",
-    "animation-direction":"reverse"
+    "background-color":"green","background-size":"190px"
+    
     })
+    $(".comp").css({"position":"relative",
+    "background-color":"green","background-size":"190px"
+   
+    })
+    $("#you span").text(yourScore);
+    $("#comp span").text(computerScore);
 })
 
 //to show the cards
